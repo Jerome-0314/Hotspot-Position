@@ -1,0 +1,32 @@
+<model-viewer src="KS11 A2 fr test.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1" camera-orbit="236.9deg 29.83deg 9.651m" field-of-view="30deg" auto-rotate>
+    <button class="Hotspot" slot="hotspot-7" data-position="-0.07719693335211127m 4.0140177304267555m -0.05683507152337533m" data-normal="-0.10872873339294184m 0.9359585347618395m -0.33490249885785744m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Wide handle grip</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="0.16224441659079789m 0.28462627181842914m 0.39063780262299846m" data-normal="-0.3992430734820094m 0.6300344001086586m 0.6660792917936734m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Unlock dust bin</div>
+    </button><button class="Hotspot" slot="hotspot-11" data-position="-0.25728570909902476m 0.16822948865654963m -0.5969783040865698m" data-normal="-0.33937820536855023m 1.202311629017675e-16m -0.9406500059643982m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Dust bin</div>
+    </button><button class="Hotspot" slot="hotspot-12" data-position="0.09510819607181173m 2.335815158642934m 0.1254713635171175m" data-normal="0.9989874803811706m -2.9135732116668333e-16m 0.044989043573747105m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Detachable walking stick</div>
+    </button><button class="Hotspot" slot="hotspot-13" data-position="0.6338933119324703m 0.00021177962902108743m 0.25839010661556916m" data-normal="3.382710778154774e-17m -0.9973323049817959m 0.07299502338994143m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Wheels</div>
+    </button><button class="Hotspot" slot="hotspot-14" data-position="0.24594783520801783m 0.03558689597860663m 0.7403843629310156m" data-normal="-0.0006913041852049524m -0.6305122664607201m 0.7761789767451122m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Vacuum roll</div>
+    </button><button class="Hotspot" slot="hotspot-21" data-position="0.5168651704017196m 0.28268619456763755m 0.2301335552556279m" data-normal="1.7203330709640097e-28m 1m -2.2204460492509097e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Transport Up &amp; Down button</div>
+    </button><button class="Hotspot" slot="hotspot-22" data-position="0.14775847587217472m 0.282686194567638m -0.33903819102558885m" data-normal="1.7203330709640097e-28m 1m -2.2204460492509097e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Vacuum UI screen</div>
+    </button><button class="Hotspot" slot="hotspot-23" data-position="-0.5044670255752346m 0.3064448584590812m 0.35847088579331937m" data-normal="-0.09927366248206074m 0.9420539309043324m 0.3204358456931645m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">On/Off switch</div>
+    </button><button class="Hotspot" slot="hotspot-24" data-position="-0.14492402806707005m 0.32558648950019475m 0.18239250886020433m" data-normal="-0.7667574834844648m 0.5296657222969838m 0.3626805538544698m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ball jointed connection</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
